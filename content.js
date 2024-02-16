@@ -35,24 +35,27 @@ function dynamicClothingSection(ob) {
 
 // Define your data directly here instead of making an AJAX request
 let contentTitle = [
-  {
-      "id": "1",
-      "name": "Product 1",
-      "brand": "Brand 1",
-      "price": "100",
-      "preview": "https://example.com/product1.jpg",
-      "isAccessory": false
-  },
-  {
-      "id": "2",
-      "name": "Product 2",
-      "brand": "Brand 2",
-      "price": "200",
-      "preview": "https://example.com/product2.jpg",
-      "isAccessory": true
-  },
-  // Add more data as needed
+    {
+        "id": "1",
+        "name": "Product 1",
+        "brand": "Brand 1",
+        "price": "100",
+        "preview": "https://example.com/product1.jpg",
+        "link": "/product1-details.html",
+        "isAccessory": false
+    },
+    {
+        "id": "2",
+        "name": "Product 2",
+        "brand": "Brand 2",
+        "price": "200",
+        "preview": "https://example.com/product2.jpg",
+        "link": "/product2-details.html",
+        "isAccessory": true
+    }
+    // Add more data as needed
 ];
+
 
 let containerClothing = document.getElementById("containerClothing");
 let containerAccessories = document.getElementById("containerAccessories");
