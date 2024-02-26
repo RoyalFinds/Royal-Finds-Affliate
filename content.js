@@ -41,7 +41,7 @@ let contentTitle = [
         "brand": "Brand 1",
         "price": "100",
         "preview": "https://example.com/product1.jpg",
-        "link": "/product1-details.html",
+        "link": "https://www.amazon.in/",
         "isAccessory": false
     },
     {
